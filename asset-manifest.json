@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/booty-demons/static/css/main.e085922d.chunk.css",
+    "main.js": "/booty-demons/static/js/main.58c69522.chunk.js",
+    "main.js.map": "/booty-demons/static/js/main.58c69522.chunk.js.map",
+    "runtime-main.js": "/booty-demons/static/js/runtime-main.0d0cef28.js",
+    "runtime-main.js.map": "/booty-demons/static/js/runtime-main.0d0cef28.js.map",
+    "static/css/2.4659568d.chunk.css": "/booty-demons/static/css/2.4659568d.chunk.css",
+    "static/js/2.cda5dde8.chunk.js": "/booty-demons/static/js/2.cda5dde8.chunk.js",
+    "static/js/2.cda5dde8.chunk.js.map": "/booty-demons/static/js/2.cda5dde8.chunk.js.map",
+    "static/js/3.be658084.chunk.js": "/booty-demons/static/js/3.be658084.chunk.js",
+    "static/js/3.be658084.chunk.js.map": "/booty-demons/static/js/3.be658084.chunk.js.map",
+    "index.html": "/booty-demons/index.html",
+    "static/css/2.4659568d.chunk.css.map": "/booty-demons/static/css/2.4659568d.chunk.css.map",
+    "static/css/main.e085922d.chunk.css.map": "/booty-demons/static/css/main.e085922d.chunk.css.map",
+    "static/js/2.cda5dde8.chunk.js.LICENSE.txt": "/booty-demons/static/js/2.cda5dde8.chunk.js.LICENSE.txt",
+    "static/media/bg.4263473b.png": "/booty-demons/static/media/bg.4263473b.png",
+    "static/media/gif.2df319d4.gif": "/booty-demons/static/media/gif.2df319d4.gif",
+    "static/media/img2.2f4ed98a.png": "/booty-demons/static/media/img2.2f4ed98a.png",
+    "static/media/img3.72d2b27b.png": "/booty-demons/static/media/img3.72d2b27b.png",
+    "static/media/logo.a3142b66.png": "/booty-demons/static/media/logo.a3142b66.png",
+    "static/media/twitter.41ec9b29.png": "/booty-demons/static/media/twitter.41ec9b29.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d0cef28.js",
+    "static/css/2.4659568d.chunk.css",
+    "static/js/2.cda5dde8.chunk.js",
+    "static/css/main.e085922d.chunk.css",
+    "static/js/main.58c69522.chunk.js"
+  ]
+}
