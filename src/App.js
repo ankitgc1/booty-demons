@@ -200,7 +200,7 @@ function App() {
               </div>
             </Col>
             <Col>
-              <h4 className="white">Congratulations, you are on the guest list. Give your name to the bouncer and jump the line. Join the community on Discord. Get Aped up with us.
+              <h4 className="white">5 ETH buyback to raise floor level, Demons secured on buyback will then be distributed via giveaways and airdrops.
               </h4>
             </Col>
           </Row>
@@ -211,7 +211,7 @@ function App() {
               </div>
             </Col>
             <Col>
-              <h4 className="white">Congratulations, you are on the guest list. Give your name to the bouncer and jump the line. Join the community on Discord. Get Aped up with us.
+              <h4 className="white">10 ETH buyback to raise floor level, demons secured on buyback will then be distributed via giveaways/airdrops, and plans for Phase 2 of the Demon Booty Saga will be revealed.
               </h4>
             </Col>
           </Row>
@@ -222,7 +222,7 @@ function App() {
               </div>
             </Col>
             <Col>
-              <h4 className="white">Congratulations, you are on the guest list. Give your name to the bouncer and jump the line. Join the community on Discord. Get Aped up with us.
+              <h4 className="white">Additional 10 ETH buyback to raise floor level, demons secured on buyback will then be distributed via giveaways/airdrops, and community will help determine a charitable cause to be the recipient of 10 ETH - your voices matter!
               </h4>
             </Col>
           </Row>
@@ -233,7 +233,7 @@ function App() {
               </div>
             </Col>
             <Col>
-              <h4 className="white">Congratulations, you are on the guest list. Give your name to the bouncer and jump the line. Join the community on Discord. Get Aped up with us.
+              <h4 className="white">The Booty Demons have been contained! 20 ETH buyback to raise floor level. Phase 3 revealed. We’ll only ever be as great as our community!
               </h4>
             </Col>
           </Row>
