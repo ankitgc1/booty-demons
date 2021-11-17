@@ -4,7 +4,7 @@ import './App.css';
 import { Navbar, Nav, Container, Row, Col} from 'react-bootstrap';
 import twitter from './images/twitter.png'
 import discord from './images/discord.png'
-import insta from './images/insta.png'
+import insta from './images/insta.jpeg'
 import bgImg from './images/bg.png'
 import img2 from './images/img2.png'
 import img3 from './images/img3.png'
@@ -45,31 +45,38 @@ function App() {
               {/* <Nav.Link href="#Team">Team</Nav.Link> */}
               <Nav.Link href="#Faq">Faq</Nav.Link>
             </Nav>
+            <hr></hr>
             <Nav className="me-auto">
-              <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/bootydemonsnft">
-                <img className="round"
-                  alt=""
-                  src={twitter}
-                  width="30"
-                  height="30"
-                />
-              </a>
-              <a rel="noopener noreferrer" target="_blank" href="https://discord.gg/bootydemonsnft">
-                <img className="round"
-                  alt=""
-                  src={discord}
-                  width="30"
-                  height="30"
-                />
-              </a>
-              <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/bootydemonsnft/">
-                <img className="round"
-                  alt=""
-                  src={insta}
-                  width="30"
-                  height="30"
-                />
-              </a>
+              <Nav.Link className="socail">
+                <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/bootydemonsnft">
+                  <img className="round"
+                    alt=""
+                    src={twitter}
+                    width="30"
+                    height="30"
+                  />
+                </a>
+              </Nav.Link>
+              <Nav.Link className="socail">
+                <a rel="noopener noreferrer" target="_blank" href="https://discord.gg/bootydemonsnft">
+                  <img className="round"
+                    alt=""
+                    src={discord}
+                    width="30"
+                    height="30"
+                  />
+                </a>
+              </Nav.Link>
+              <Nav.Link className="socail">
+                <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/bootydemonsnft/">
+                  <img className="round"
+                    alt=""
+                    src={insta}
+                    width="30"
+                    height="30"
+                  />
+                </a>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

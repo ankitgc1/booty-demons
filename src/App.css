@@ -106,3 +106,15 @@ a{
   color: rgb(178, 80, 255);
 }
 
+@media screen and (max-width: 975px) {
+  .me-auto{
+    display: block;
+  }
+  .socail{
+    margin-left: 15%;
+    display: inline;
+  }
+  hr{
+    color: white;
+  }
+}
