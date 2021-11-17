@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar{
+  background: black;
+}
+a{
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.round{
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.hero-1{
+  height: 100vh;
+}
+
+.tran-box{
+  margin: 50px 30px;
+  background: linear-gradient(225deg, #1ee0af42 12%, #c055ee45 78%);
+  padding: 30px;
+  box-shadow: 0 0 8px 2px #265258;
+  align-items: center;
+  border-radius: 14px;
+  flex-direction: column;
+  color: white;
+  /* height: 100%; */
+}
+.intro{
+  margin-top: 20%;
+}
+
+.opensea{
+  color: black;
+  margin-top: 10%;
+  width: 300px;
+  height: 100px;
+  background: rgb(165, 98, 228);
+  padding-top: 41px;
+}
+.opensea:hover{
+  background: rgb(218, 98, 98);
+  cursor: pointer;
+}
+.white{
+  color: white;
+}
+
+.hero-2, .hero-4{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgba(21,21,21);
+}
+.hero-3, .hero-5{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: black;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  padding: 35px;
+  /* margin: 20px; */
+  border: 2px solid rgb(255, 255, 255);
+}
+.per{
+  color: rgb(178, 80, 255);
+}
+
