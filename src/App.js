@@ -5,10 +5,15 @@ import { Navbar, Nav, Container, Row, Col} from 'react-bootstrap';
 import twitter from './images/twitter.png'
 import discord from './images/discord.png'
 import insta from './images/insta.jpeg'
+import link from './images/linkedin.png'
 import bgImg from './images/bg.png'
 import img2 from './images/img2.png'
 import img3 from './images/img3.png'
 import gif from './images/gif.gif'
+import cf from './images/cf.jpeg'
+import Artist from './images/Artist.jpeg'
+import Programmer from './images/Programmer.jpeg'
+import Developer from './images/Developer.jpeg'
 
 function App() {
 
@@ -42,8 +47,8 @@ function App() {
               <Nav.Link href="#About">About</Nav.Link>
               <Nav.Link href="#Features">Features</Nav.Link>
               <Nav.Link href="#Roadmap">Roadmap</Nav.Link>
-              {/* <Nav.Link href="#Team">Team</Nav.Link> */}
               <Nav.Link href="#Faq">Faq</Nav.Link>
+              <Nav.Link href="#Team">Team</Nav.Link>
             </Nav>
             <hr></hr>
             <Nav className="me-auto">
@@ -287,6 +292,83 @@ function App() {
               <h4>Once minted, simply connect to your OpenSea account to view your NFTs.</h4>
             </Col>
             <hr className="white"></hr>
+          </Row>
+        </Container>
+      </Container>
+
+      <Container fluid id="Team" className="hero-4">
+        <Container>
+          <Row className="pd-5 mt-5 justify-content-center text-center">
+            <h1 className="white"><strong>OUR TEAM</strong></h1> 
+            <h4 className="white">
+            The Booty Demons was created by a team of digital native: Entrepreneurs, Blockchain experts, Marketing wizards, and Artists… We are committed to delivering a cutting-edge experience and making this project a success.
+            </h4>
+          </Row>
+          <Row className="mt-5">
+            <Col>
+              <div className="white">
+                <img
+                  alt=""
+                  src={cf}
+                  width="300"
+                  height="300"
+                />
+                <h5 className="mt-2">Mrs. G</h5>
+                <p>The Co-Founder</p>
+              </div>
+            </Col>
+            <Col>
+              <div className="white">
+                <img
+                  alt=""
+                  src={Artist}
+                  width="300"
+                  height="300"
+                />
+                <h5 className="mt-2">Mrs. U</h5>
+                <p>The Artist</p>
+              </div>
+            </Col>
+            <Col>
+              <div className="white">
+                <img
+                  alt=""
+                  src={Programmer}
+                  width="300"
+                  height="300"
+                />
+                <h5 className="mt-2">Mrs. D</h5>
+                <p>The Programmer</p>
+              </div>
+            </Col>
+            <Col>
+              <div className="white">
+                <img
+                  alt=""
+                  src={Developer}
+                  width="300"
+                  height="300"
+                />
+                <h5 className="mt-2">Mrs. M</h5>
+                <p>The Developer</p> 
+                <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/i_m_chappie/">
+                  <img className="round"
+                    alt=""
+                    src={insta}
+                    width="30"
+                    height="30"
+                  />
+                </a>
+                <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/ankit-kumar-saini-060527173/">
+                  <img className="round"
+                    alt=""
+                    src={link}
+                    width="30"
+                    height="30"
+                  />
+                </a>
+              </div>
+            </Col>
           </Row>
         </Container>
       </Container>
