@@ -7,10 +7,13 @@ import discord from './images/discord.png'
 import insta from './images/insta.jpeg'
 import link from './images/linkedin.png'
 import bgImg from './images/bg.png'
+import img1 from './images/img1.png'
 import img2 from './images/img2.png'
 import img3 from './images/img3.png'
+import img4 from './images/img4.png'
 import gif from './images/gif.gif'
-import cf from './images/cf.jpeg'
+import mrcf from './images/cf.jpeg'
+import mrscf from './images/mrscf.jpeg'
 import Artist from './images/Artist.jpeg'
 import Programmer from './images/Programmer.jpeg'
 import Developer from './images/Developer.jpeg'
@@ -119,7 +122,7 @@ function App() {
               <div>
                 <img className="mb-5"
                     alt=""
-                    src={img2}
+                    src={img1}
                     width="300"
                     height="300"
                   />
@@ -141,7 +144,7 @@ function App() {
                   />
                    <img
                     alt=""
-                    src={img3}
+                    src={img4}
                     width="300"
                     height="300"
                   />
@@ -262,34 +265,25 @@ function App() {
               <h3 className="white">
                 Where can I view my NFTs ? 
               </h3>
-              <h4>Once minted, simply connect to your OpenSea account to view your NFTs.</h4>
+              <h4> ⁃ Once your Booty Demon is minted, just connect to your OpenSea account to view your NFTs.</h4>
             </Col>
             <hr className="white"></hr>
           </Row>
           <Row className="mt-5">
             <Col>
               <h3 className="white">
-                Where can I view my NFTs ? 
+              Why mint a Booty Demons NFT?
               </h3>
-              <h4>Once minted, simply connect to your OpenSea account to view your NFTs.</h4>
+              <h4> - We encourage our community to share and grow with us! Become part of an ambitious yet cheeky collective that will help determine the future direction of our project.</h4>
             </Col>
             <hr className="white"></hr>
           </Row>
           <Row className="mt-5">
             <Col>
               <h3 className="white">
-                Where can I view my NFTs ? 
+              How can I use my NFT?
               </h3>
-              <h4>Once minted, simply connect to your OpenSea account to view your NFTs.</h4>
-            </Col>
-            <hr className="white"></hr>
-          </Row>
-          <Row className="mt-5">
-            <Col>
-              <h3 className="white">
-                Where can I view my NFTs ? 
-              </h3>
-              <h4>Once minted, simply connect to your OpenSea account to view your NFTs.</h4>
+              <h4> ⁃ You will be able to use your NFT as an avatar and exclusive pass for upcoming events, giveaways, airdrops, and so much more.</h4>
             </Col>
             <hr className="white"></hr>
           </Row>
@@ -301,15 +295,30 @@ function App() {
           <Row className="pd-5 mt-5 justify-content-center text-center">
             <h1 className="white"><strong>OUR TEAM</strong></h1> 
             <h4 className="white">
-            The Booty Demons was created by a team of digital native: Entrepreneurs, Blockchain experts, Marketing wizards, and Artists… We are committed to delivering a cutting-edge experience and making this project a success.
+              The Booty Demons NFT Project was created by a team dedicated to absolute success!
+            </h4>
+            <h4 className="white">
+              Our Artists, Programmers, and Developers have worked tirelessly to deliver an NFT Community that will be able to create future utility, while also delivering an aesthetically pleasing unique NFT to each and every investor.
             </h4>
           </Row>
-          <Row className="mt-5">
+          <Row className="mt-5 justify-content-center text-center">
             <Col>
               <div className="white">
                 <img
                   alt=""
-                  src={cf}
+                  src={mrcf}
+                  width="300"
+                  height="300"
+                />
+                <h5 className="mt-2">Mrs. G</h5>
+                <p>The Co-Founder</p>
+              </div>
+            </Col>
+            <Col>
+              <div className="white">
+                <img
+                  alt=""
+                  src={mrscf}
                   width="300"
                   height="300"
                 />
@@ -329,6 +338,8 @@ function App() {
                 <p>The Artist</p>
               </div>
             </Col>
+          </Row>
+          <Row className="mt-5 justify-content-center text-center">
             <Col>
               <div className="white">
                 <img
