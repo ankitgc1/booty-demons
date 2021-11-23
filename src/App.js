@@ -7,10 +7,10 @@ import discord from './images/discord.png'
 import insta from './images/insta.jpeg'
 import link from './images/linkedin.png'
 import bgImg from './images/bg.png'
-import img1 from './images/img1.png'
-import img2 from './images/img2.png'
-import img3 from './images/img3.png'
-import img4 from './images/img4.png'
+import img1 from './images/img1.jpeg'
+import img2 from './images/img2.jpeg'
+import img3 from './images/img3.jpeg'
+import img4 from './images/img4.jpeg'
 import gif from './images/gif.gif'
 import mrcf from './images/cf.jpeg'
 import mrscf from './images/mrscf.jpeg'
@@ -50,8 +50,9 @@ function App() {
               <Nav.Link href="#About">About</Nav.Link>
               <Nav.Link href="#Features">Features</Nav.Link>
               <Nav.Link href="#Roadmap">Roadmap</Nav.Link>
-              <Nav.Link href="#Faq">Faq</Nav.Link>
               <Nav.Link href="#Team">Team</Nav.Link>
+              <Nav.Link href="#Faq">Faq</Nav.Link>
+              <Nav.Link href="#Contact">Contact Us</Nav.Link>
             </Nav>
             <hr></hr>
             <Nav className="me-auto">
@@ -66,7 +67,7 @@ function App() {
                 </a>
               </Nav.Link>
               <Nav.Link className="socail">
-                <a rel="noopener noreferrer" target="_blank" href="https://discord.gg/bootydemonsnft">
+                <a rel="noopener noreferrer" target="_blank" href="https://discord.gg/PNn2JrXs">
                   <img className="round"
                     alt=""
                     src={discord}
@@ -91,9 +92,9 @@ function App() {
       </Navbar>
 
       <Container className="hero-1" id="home">
-          <Row className="mt-3">
-            <Col className="d-flex justify-content-center text-center">
-              <div className="tran-box intro white">
+          <Row className="mt-5">
+            <Col className="mt-5 d-flex justify-content-center text-center">
+              <div className="intro white">
                 <h1>Welcome to the Booty Demons Back Room!</h1>
                 <br></br>
                 <h3>“Life’s more fun when you’re a little cheeky.” 🍑😈</h3>
@@ -101,7 +102,7 @@ function App() {
             </Col>
           </Row>
 
-        <Row className="mt-3 justify-content-center text-center">
+        <Row className="mt-5 justify-content-center text-center">
           <Col className="d-flex justify-content-center text-center">
             <div className="tran-box opensea">
               <a className="opensealink" href="#">
@@ -114,46 +115,45 @@ function App() {
 
       <Container fluid id="About" className="hero-2">
         <Container>
-          {/* <Row className="pd-5 justify-content-center text-center">
-            <h1><strong>About</strong></h1> 
-          </Row> */}
-          <Row className="mt-5">
-            <Col className="mt-3 d-flex justify-content-center text-center">
-              <div>
-                <img className="mb-5"
-                    alt=""
-                    src={img1}
-                    width="300"
-                    height="300"
-                  />
-                   <img
+            <div className="justify-content-center text-center">
+                <h1 className="white"><strong>ABOUT</strong></h1> 
+            </div>
+          <Row>
+            <Col md={6} className="mt-3 justify-content-center text-center">
+              <Row className="mt-5">
+                <Col className="justify-content-center text-center">
+                  <img className="mb-5"
+                      alt=""
+                      src={img1}
+                      width="100%"
+                    />
+                </Col>
+                <Col className="justify-content-center text-center">
+                  <img
                     alt=""
                     src={img2}
-                    width="300"
-                    height="300"
+                    width="100%"
                   />
-              </div>
-            </Col>
-            <Col className="mt-3 d-flex justify-content-center text-center">
-              <div>
-                <img className="mb-5"
-                    alt=""
-                    src={img3}
-                    width="300"
-                    height="300"
-                  />
-                   <img
+                </Col>
+              </Row>
+              <Row>
+                <Col className="justify-content-center text-center">
+                  <img className="mb-5"
+                      alt=""
+                      src={img3}
+                      width="100%"
+                    />
+                </Col>
+                <Col className="justify-content-center text-center">
+                  <img
                     alt=""
                     src={img4}
-                    width="300"
-                    height="300"
+                    width="100%"
                   />
-              </div>
+                </Col>
+              </Row>
             </Col>
             <Col className="mt-3 justify-content-center text-center">
-              <div className="mt-5">
-                <h1 className="white"><strong>ABOUT</strong></h1> 
-              </div>
               <div className="mt-5">
                 <p className="white">6,666 Demons have been let loose and they’re all after one thing… World peace. HAHAHA just kidding. They’re after BOOTY! The Demons’ travels have taken them to the far reaches of the earth and while no one seems to know why, the Demons have been seen collecting a few souvenirs amongst their explorations. 
                 </p> 
@@ -172,8 +172,8 @@ function App() {
           {/* <Row className="pd-5 mt-5 justify-content-center text-center">
             <h1><strong>About</strong></h1> 
           </Row> */}
-          <Row className="mt-5">
-            <Col className="mt-3 mr-5 justify-content-center text-center">
+          <Row>
+            <Col md={6} className="justify-content-center text-center">
               <div className="mt-5">
                 <h1 className="white"><strong>FEATURES</strong></h1> 
               </div>
@@ -191,8 +191,8 @@ function App() {
                 <img
                 alt=""
                 src={gif}
-                width="640"
-                height="640"
+                width="100%"
+                height="100%"
                 />
               </div>
             </Col>
@@ -209,7 +209,7 @@ function App() {
             </h3>
           </Row>
           <Row className="mt-5">
-            <Col md={2}>
+            <Col xs={2} md={2} className="justify-content-center text-center">
               <div className="box">
                 <strong className="per">25%</strong>
               </div>
@@ -220,7 +220,7 @@ function App() {
             </Col>
           </Row>
           <Row className="mt-5">
-            <Col md={2}>
+            <Col xs={2} md={2} className="justify-content-center text-center">
               <div className="box">
                 <strong className="per">50%</strong>
               </div>
@@ -231,7 +231,7 @@ function App() {
             </Col>
           </Row>
           <Row className="mt-5">
-            <Col md={2}>
+            <Col xs={2} md={2} className="justify-content-center text-center">
               <div className="box">
                 <strong className="per">75%</strong>
               </div>
@@ -242,7 +242,7 @@ function App() {
             </Col>
           </Row>
           <Row className="mt-5">
-            <Col md={2}>
+            <Col xs={2} md={2} className="justify-content-center text-center">
               <div className="box">
                 <strong className="per">100%</strong>
               </div>
@@ -255,44 +255,9 @@ function App() {
         </Container>
       </Container>
 
-      <Container fluid id="Faq" className="hero-5">
+      <Container fluid id="Team" className="hero-5">
         <Container>
-          <Row className="pd-5 mt-5 justify-content-center text-center">
-            <h1 className="white"><strong>FREQUENTLY ASKED QUESTIONS</strong></h1>
-          </Row>
-          <Row className="mt-5">
-            <Col>
-              <h3 className="white">
-                Where can I view my NFTs ? 
-              </h3>
-              <h4> ⁃ Once your Booty Demon is minted, just connect to your OpenSea account to view your NFTs.</h4>
-            </Col>
-            <hr className="white"></hr>
-          </Row>
-          <Row className="mt-5">
-            <Col>
-              <h3 className="white">
-              Why mint a Booty Demons NFT?
-              </h3>
-              <h4> - We encourage our community to share and grow with us! Become part of an ambitious yet cheeky collective that will help determine the future direction of our project.</h4>
-            </Col>
-            <hr className="white"></hr>
-          </Row>
-          <Row className="mt-5">
-            <Col>
-              <h3 className="white">
-              How can I use my NFT?
-              </h3>
-              <h4> ⁃ You will be able to use your NFT as an avatar and exclusive pass for upcoming events, giveaways, airdrops, and so much more.</h4>
-            </Col>
-            <hr className="white"></hr>
-          </Row>
-        </Container>
-      </Container>
-
-      <Container fluid id="Team" className="hero-4">
-        <Container>
-          <Row className="pd-5 mt-5 justify-content-center text-center">
+          <Row className="justify-content-center text-center">
             <h1 className="white"><strong>OUR TEAM</strong></h1> 
             <h4 className="white">
               The Booty Demons NFT Project was created by a team dedicated to absolute success!
@@ -302,7 +267,7 @@ function App() {
             </h4>
           </Row>
           <Row className="mt-5 justify-content-center text-center">
-            <Col>
+            <Col sm={6}>
               <div className="white">
                 <img
                   alt=""
@@ -310,11 +275,11 @@ function App() {
                   width="300"
                   height="300"
                 />
-                <h5 className="mt-2">Mrs. G</h5>
+                <h5 className="mt-2">Mr. G</h5>
                 <p>The Co-Founder</p>
               </div>
             </Col>
-            <Col>
+            <Col sm={6}>
               <div className="white">
                 <img
                   alt=""
@@ -334,12 +299,12 @@ function App() {
                   width="300"
                   height="300"
                 />
-                <h5 className="mt-2">Mrs. U</h5>
+                <h5 className="mt-2">Mr. U</h5>
                 <p>The Artist</p>
               </div>
             </Col>
-          </Row>
-          <Row className="mt-5 justify-content-center text-center">
+          {/* </Row>
+          <Row className="mt-5 justify-content-center text-center"> */}
             <Col>
               <div className="white">
                 <img
@@ -348,7 +313,7 @@ function App() {
                   width="300"
                   height="300"
                 />
-                <h5 className="mt-2">Mrs. D</h5>
+                <h5 className="mt-2">Mr. D</h5>
                 <p>The Programmer</p>
               </div>
             </Col>
@@ -360,7 +325,7 @@ function App() {
                   width="300"
                   height="300"
                 />
-                <h5 className="mt-2">Mrs. M</h5>
+                <h5 className="mt-2">Mr. M</h5>
                 <p>The Developer</p> 
                 <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/i_m_chappie/">
                   <img className="round"
@@ -379,6 +344,84 @@ function App() {
                   />
                 </a>
               </div>
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+
+      <Container fluid id="Faq" className="hero-4">
+        <Container>
+          <Row className="pd-5 mt-5 justify-content-center text-center">
+            <h1 className="white"><strong>FREQUENTLY ASKED QUESTIONS</strong></h1>
+          </Row>
+          <Row className="mt-5">
+            <Col>
+              <h2 className="white">
+                Where can I view my NFTs ? 
+              </h2>
+              <h4 className="per"> ⁃ Once your Booty Demon is minted, just connect to your OpenSea account to view your NFTs.</h4>
+            </Col>
+            <hr className="white"></hr>
+          </Row>
+          <Row className="mt-5">
+            <Col>
+              <h2 className="white">
+              Why mint a Booty Demons NFT?
+              </h2>
+              <h4 className="per"> - We encourage our community to share and grow with us! Become part of an ambitious yet cheeky collective that will help determine the future direction of our project.</h4>
+            </Col>
+            <hr className="white"></hr>
+          </Row>
+          <Row className="mt-5">
+            <Col>
+              <h2 className="white">
+              How can I use my NFT?
+              </h2>
+              <h4 className="per"> ⁃ You will be able to use your NFT as an avatar and exclusive pass for upcoming events, giveaways, airdrops, and so much more.</h4>
+            </Col>
+            <hr className="white"></hr>
+          </Row>
+        </Container>
+      </Container>
+
+      <Container fluid id="Contact" className="hero-5">
+        <Container>
+          <Row className="justify-content-center text-center">
+            <h1 className="white"><strong>CONTACT US</strong></h1> 
+            <h4 className="per">
+              Join our discord and follow
+            </h4>
+          </Row>
+          <Row className="mt-5 justify-content-center text-center">
+            <Col>
+              <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/bootydemonsnft">
+                <img className="round"
+                  alt=""
+                  src={twitter}
+                  width="30"
+                  height="30"
+                />
+              </a>
+            </Col>
+            <Col>
+            <a rel="noopener noreferrer" target="_blank" href="https://discord.gg/PNn2JrXs">
+              <img className="round"
+                alt=""
+                src={discord}
+                width="30"
+                height="30"
+              />
+            </a>
+            </Col>
+            <Col>
+            <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/bootydemonsnft">
+              <img className="round"
+                alt=""
+                src={insta}
+                width="30"
+                height="30"
+              />
+            </a>
             </Col>
           </Row>
         </Container>

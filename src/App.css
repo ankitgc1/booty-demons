@@ -69,6 +69,10 @@ a{
   margin-top: 20%;
 }
 
+.purple{
+  color: #9942a9;
+}
+
 .opensea{
   color: black;
   margin-top: 10%;
@@ -96,15 +100,30 @@ a{
   background: black;
 }
 .box{
+  margin-left: -10px;
   width: 100px;
   height: 100px;
   padding: 35px;
   /* margin: 20px; */
-  border: 2px solid rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
 }
+
+@media screen and (max-width: 975px) {
+  .box{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    /* margin: 20px; */
+    border: 2px solid rgb(255, 255, 255);
+  }
+}
+
 .per{
   color: rgb(178, 80, 255);
 }
+
+
+
 
 @media screen and (max-width: 975px) {
   .me-auto{
