@@ -24,6 +24,7 @@ function App() {
     backgroundImage: 'url('+bgImg+')',
     backgroundAttachment: 'fixed',
     backgroundPosition: 'center',
+    backgroundSize: '100%',
     backgroundSize: 'cover',
     minHeight: '100%',
     width: '100%',
@@ -56,8 +57,8 @@ function App() {
             </Nav>
             <hr></hr>
             <Nav className="me-auto">
-              <Nav.Link className="socail">
-                <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/bootydemonsnft">
+              {/* <Nav.Link className="socail"> */}
+                <a className="socail" rel="noopener noreferrer" target="_blank" href="https://twitter.com/bootydemonsnft">
                   <img className="round"
                     alt=""
                     src={twitter}
@@ -65,9 +66,9 @@ function App() {
                     height="30"
                   />
                 </a>
-              </Nav.Link>
-              <Nav.Link className="socail">
-                <a rel="noopener noreferrer" target="_blank" href="https://discord.gg/PNn2JrXs">
+              {/* </Nav.Link> */}
+              {/* <Nav.Link className="socail"> */}
+                <a className="socail" rel="noopener noreferrer" target="_blank" href="https://discord.gg/PNn2JrXs">
                   <img className="round"
                     alt=""
                     src={discord}
@@ -75,9 +76,9 @@ function App() {
                     height="30"
                   />
                 </a>
-              </Nav.Link>
-              <Nav.Link className="socail">
-                <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/bootydemonsnft/">
+              {/* </Nav.Link> */}
+              {/* <Nav.Link className="socail"> */}
+                <a className="socail" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/bootydemonsnft">
                   <img className="round"
                     alt=""
                     src={insta}
@@ -85,7 +86,7 @@ function App() {
                     height="30"
                   />
                 </a>
-              </Nav.Link>
+              {/* </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -155,12 +156,12 @@ function App() {
             </Col>
             <Col className="mt-3 justify-content-center text-center">
               <div className="mt-5">
-                <p className="white">6,666 Demons have been let loose and they’re all after one thing… World peace. HAHAHA just kidding. They’re after BOOTY! The Demons’ travels have taken them to the far reaches of the earth and while no one seems to know why, the Demons have been seen collecting a few souvenirs amongst their explorations. 
-                </p> 
+                <h5 className="white">6,666 Demons have been let loose and they’re all after one thing… World peace. HAHAHA just kidding. They’re after BOOTY! The Demons’ travels have taken them to the far reaches of the earth and while no one seems to know why, the Demons have been seen collecting a few souvenirs amongst their explorations. 
+                </h5> 
               </div>
               <div className="mt-5">
-                <p className="white">Please help us to collect all the Demons! We’ll need to act fast because anything could happen when you’re dealing with the Booty Demons.
-                </p> 
+                <h5 className="white">Please help us to collect all the Demons! We’ll need to act fast because anything could happen when you’re dealing with the Booty Demons.
+                </h5> 
               </div>
             </Col>
           </Row>
@@ -178,8 +179,8 @@ function App() {
                 <h1 className="white"><strong>FEATURES</strong></h1> 
               </div>
               <div className="mt-5">
-                <p className="white">Booty Demons NFT is a collection of 6,666 unique digital collectibles. The demons are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. Reveal on XX/XX/XXXX.
-                </p> 
+                <h5 className="white">Booty Demons NFT is a collection of 6,666 unique digital collectibles. The demons are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. Reveal on XX/XX/XXXX.
+                </h5> 
               </div>
               {/* <div className="mt-5">
                 <p className="white">The BILLIONAIRE CLUB is a private collection of 10 000 billionaire apes NFTs—unique digital collectibles. The apes are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. Reveal on October 20th.
@@ -215,7 +216,7 @@ function App() {
               </div>
             </Col>
             <Col>
-              <h4 className="white">5 ETH buyback to raise floor level, Demons secured on buyback will then be distributed via giveaways and airdrops.
+              <h4 className="white"><strong className="per">5 ETH</strong> buyback to raise floor level, Demons secured on buyback will then be distributed via giveaways and airdrops.
               </h4>
             </Col>
           </Row>
@@ -226,7 +227,7 @@ function App() {
               </div>
             </Col>
             <Col>
-              <h4 className="white">10 ETH buyback to raise floor level, demons secured on buyback will then be distributed via giveaways/airdrops, and plans for Phase 2 of the Demon Booty Saga will be revealed.
+              <h4 className="white"> <strong className="per">10 ETH</strong> buyback to raise floor level, demons secured on buyback will then be distributed via giveaways/airdrops, and plans for Phase 2 of the Booty Demons Saga will be revealed.
               </h4>
             </Col>
           </Row>
@@ -237,18 +238,18 @@ function App() {
               </div>
             </Col>
             <Col>
-              <h4 className="white">Additional 10 ETH buyback to raise floor level, demons secured on buyback will then be distributed via giveaways/airdrops, and community will help determine a charitable cause to be the recipient of 10 ETH - your voices matter!
+              <h4 className="white">Additional <strong className="per">10 ETH</strong> buyback to raise floor level, demons secured on buyback will then be distributed via giveaways/airdrops, and community will help determine a charitable cause to be the recipient of 10 ETH - your voices matter!
               </h4>
             </Col>
           </Row>
           <Row className="mt-5">
             <Col xs={2} md={2} className="justify-content-center text-center">
-              <div className="box">
+              <div className="box last-box">
                 <strong className="per">100%</strong>
               </div>
             </Col>
             <Col>
-              <h4 className="white">The Booty Demons have been contained! 20 ETH buyback to raise floor level. Phase 3 revealed. We’ll only ever be as great as our community!
+              <h4 className="white">The Booty Demons have been contained! <strong className="per">20 ETH</strong> buyback to raise floor level. Phase 3 revealed. We’ll only ever be as great as our community!
               </h4>
             </Col>
           </Row>
