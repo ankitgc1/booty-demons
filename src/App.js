@@ -238,7 +238,7 @@ function App() {
               </div>
             </Col>
             <Col>
-              <h4 className="white">Additional <strong className="per">10 ETH</strong> buyback to raise floor level, demons secured on buyback will then be distributed via giveaways/airdrops, and community will help determine a charitable cause to be the recipient of 10 ETH - your voices matter!
+              <h4 className="white">Additional <strong className="per">10 ETH</strong> buyback to raise floor level, demons secured on buyback will then be distributed via giveaways/airdrops, and community will help determine a charitable cause to be the recipient of <strong className="per">10 ETH</strong> - your voices matter!
               </h4>
             </Col>
           </Row>
@@ -390,7 +390,7 @@ function App() {
           <Row className="justify-content-center text-center">
             <h1 className="white"><strong>CONTACT US</strong></h1> 
             <h4 className="per">
-              Join our discord and follow
+              Join our Discord and Follow
             </h4>
           </Row>
           <Row className="mt-5 justify-content-center text-center">
