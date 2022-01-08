@@ -44,13 +44,11 @@ function App() {
   const mintNFT = async mintNFTcall => {
     window.web3 = new Web3(window.ethereum);
     const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
-    // const cost = contract.methods.cost().call();
-    // console.log(cost);
     await contract.methods.Mint(1).send({
       from: accounts[0], 
       // gas: 1500000,
       // gasPrice: '30000000000000',
-      value: '30000000000000000'
+      value: '60000000000000000'
     });
   } 
 
